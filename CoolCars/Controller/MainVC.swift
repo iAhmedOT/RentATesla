@@ -25,13 +25,13 @@
 import UIKit
 
 class MainVC: UIViewController {
-    // Labels and Pictures IBOutlets
+    // Labels and buttons IBOutlets
     @IBOutlet weak var model3Lbl: UILabel!
     @IBOutlet weak var modelXLbl: UILabel!
     @IBOutlet weak var modelYLbl: UILabel!
-    @IBOutlet weak var modelXPicture: UIImageView!
-    @IBOutlet weak var model3Picture: UIImageView!
-    @IBOutlet weak var modelYPicture: UIImageView!
+    @IBOutlet weak var modelXBtn: UIButton!
+    @IBOutlet weak var modelYBtn: UIButton!
+    @IBOutlet weak var model3Btn: UIButton!
     
     // Calling the model struct
     var carInfo = CarInfo(name: "", year: 0, model: "", acceleration: "", range: "")
@@ -40,13 +40,14 @@ class MainVC: UIViewController {
         super.viewDidLoad()
     }
     
+    // IBActions
     @IBAction func modelXBtnPressed(_ sender: Any) {
         carInfo.name = "Model X"
         carInfo.year = 2020
         carInfo.model = "X"
         carInfo.acceleration = "From 0-60mph in 2.6s"
         carInfo.range = "305mi"
-        carInfo.pic = modelXPicture.image
+        carInfo.pic = modelXBtn.currentBackgroundImage
         performSegue(withIdentifier: "modelXSegue", sender: self)
     }
     @IBAction func ModelYBtnPressed(_ sender: Any) {
@@ -55,7 +56,7 @@ class MainVC: UIViewController {
         carInfo.model = "Y"
         carInfo.acceleration = "From 0-60mph in 3.5s"
         carInfo.range = "315mi"
-        carInfo.pic = modelYPicture.image
+        carInfo.pic = modelYBtn.currentBackgroundImage
         performSegue(withIdentifier: "modelYSegue", sender: self)
     }
     @IBAction func model3BtnPressed(_ sender: Any) {
@@ -64,7 +65,7 @@ class MainVC: UIViewController {
         carInfo.model = "3"
         carInfo.acceleration = "From 0-60mph in 3.2s"
         carInfo.range = "299mi"
-        carInfo.pic = model3Picture.image
+        carInfo.pic = model3Btn.currentBackgroundImage
         performSegue(withIdentifier: "model3Segue", sender: self)
     }
     

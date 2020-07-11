@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CoolCars.xcodeproj">
+      location = "self:/Users/ahmedot/Documents/Swift apps/CoolCars/Rent-A-Tesla.xcodeproj">
    </FileRef>
 </Workspace>

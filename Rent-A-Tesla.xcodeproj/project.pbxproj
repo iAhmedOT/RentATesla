@@ -22,7 +22,7 @@
 		3A256AF424B40828008BFC39 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 		3A256AF624B41AF8008BFC39 /* CarInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfo.swift; sourceTree = "<group>"; };
 		3A256AF924B6FC7A008BFC39 /* BorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
-		3AD9FC7B24B309F100D758CB /* CoolCars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolCars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD9FC7B24B309F100D758CB /* Rent-A-Tesla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rent-A-Tesla.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD9FC7E24B309F100D758CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AD9FC8024B309F100D758CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3AD9FC8224B309F100D758CB /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		3AD9FC7C24B309F100D758CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3AD9FC7B24B309F100D758CB /* CoolCars.app */,
+				3AD9FC7B24B309F100D758CB /* Rent-A-Tesla.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3AD9FC7A24B309F100D758CB /* CoolCars */ = {
+		3AD9FC7A24B309F100D758CB /* Rent-A-Tesla */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AD9FC8F24B309F300D758CB /* Build configuration list for PBXNativeTarget "CoolCars" */;
+			buildConfigurationList = 3AD9FC8F24B309F300D758CB /* Build configuration list for PBXNativeTarget "Rent-A-Tesla" */;
 			buildPhases = (
 				3AD9FC7724B309F100D758CB /* Sources */,
 				3AD9FC7824B309F100D758CB /* Frameworks */,
@@ -115,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = CoolCars;
+			name = "Rent-A-Tesla";
 			productName = CoolCars;
-			productReference = 3AD9FC7B24B309F100D758CB /* CoolCars.app */;
+			productReference = 3AD9FC7B24B309F100D758CB /* Rent-A-Tesla.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3AD9FC7624B309F100D758CB /* Build configuration list for PBXProject "CoolCars" */;
+			buildConfigurationList = 3AD9FC7624B309F100D758CB /* Build configuration list for PBXProject "Rent-A-Tesla" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3AD9FC7A24B309F100D758CB /* CoolCars */,
+				3AD9FC7A24B309F100D758CB /* Rent-A-Tesla */,
 			);
 		};
 /* End PBXProject section */
@@ -327,10 +327,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedOT.CoolCars;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedOT.RentATesla;
+				PRODUCT_NAME = "Rent-A-Tesla";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -345,17 +345,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedOT.CoolCars;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedOT.RentATesla;
+				PRODUCT_NAME = "Rent-A-Tesla";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3AD9FC7624B309F100D758CB /* Build configuration list for PBXProject "CoolCars" */ = {
+		3AD9FC7624B309F100D758CB /* Build configuration list for PBXProject "Rent-A-Tesla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AD9FC8D24B309F300D758CB /* Debug */,
@@ -364,7 +364,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AD9FC8F24B309F300D758CB /* Build configuration list for PBXNativeTarget "CoolCars" */ = {
+		3AD9FC8F24B309F300D758CB /* Build configuration list for PBXNativeTarget "Rent-A-Tesla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AD9FC9024B309F300D758CB /* Debug */,
